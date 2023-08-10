@@ -1,0 +1,6 @@
+#!/bin/bash
+echo 'wirte your commit'
+read vi
+git add .
+git commit -m '$vi'
+git push
