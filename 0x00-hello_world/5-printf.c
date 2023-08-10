@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main - Entry point.
- *Description:'A program that print with printf function'
+ *Description:'A  program that prints exactly'
  *return: 0 (success)
  */
 int main(void)
