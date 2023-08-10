@@ -1,6 +1,6 @@
 #!/bin/bash
 echo 'wirte your commit'
-read vi
+read msg
 git add .
-git commit -m '$vi'
+git commit -m "$msg"
 git push
