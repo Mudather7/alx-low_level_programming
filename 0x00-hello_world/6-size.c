@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - using sizeof to print the size of characters.
+ * main - A program that using sizeof to print the size of characters.
  * return: Always 0 (success)
 */
 int main(void)
