@@ -16,7 +16,7 @@ int main(void)
 		{
 			while (i <= 57)
 			{
-				if (i != x != n && i < x < n)
+				if (i != x  && i != n && x != n && i < x && x < n)
 				{
 					putchar(x);
 					putchar(n);
