@@ -18,8 +18,8 @@ int main(void)
 			{
 				if (i != x  && i != n && x != n && i > x && x > n)
 				{
-					putchar(x);
 					putchar(n);
+					putchar(x);
 					putchar(i);
 
 					if (n + x + i != 24)
