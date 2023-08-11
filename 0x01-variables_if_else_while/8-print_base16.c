@@ -6,6 +6,7 @@
  */
 int main(void)
 {
+	int n = 97;
 	int digit = 48;
 
 	while (digit <= 57)
@@ -14,7 +15,6 @@ int main(void)
 		digit++;
 	}
 
-	int n;
 
 	for (n = 97; n <= 102; n++)
 	{
