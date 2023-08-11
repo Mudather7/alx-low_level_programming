@@ -1,9 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
  * main - Entry point
- * Description: 'A program that using sizeof to print the size of characters'.
- * return: Always 0 (success)
-*/
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	printf("size of a char: %lu byte(s)\n", sizeof(char));
