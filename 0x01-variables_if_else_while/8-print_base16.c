@@ -13,7 +13,7 @@ int main(void)
 		putchar(digit);
 		digit++;
 	}
-	
+
 	int n;
 
 	for (n = 65; n <= 70; n++)
