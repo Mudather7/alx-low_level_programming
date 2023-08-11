@@ -10,13 +10,13 @@ int main(void)
 	int n = 48;
 	int i = 48;
 
-	while (x = 48, i = 49, n <= 57)
+	while (x = 49, i = 50, n <= 57)
 	{
-		while (i = 49, x <= 57)
+		while (i = 50, x <= 57)
 		{
 			while (i <= 57)
 			{
-				if (i != x  && i != n && x != n && i < x && x < n)
+				if (i != x  && i != n && x != n && i > x && x > n)
 				{
 					putchar(x);
 					putchar(n);
