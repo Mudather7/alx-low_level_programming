@@ -9,7 +9,7 @@ int main(void)
 	int x = 48;
 	int n = 48;
 
-	while (x = 48i, n <= 57)
+	while (x = 48, n <= 57)
 	{
 		while (x <= 57)
 		{
