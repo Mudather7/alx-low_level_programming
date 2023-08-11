@@ -11,13 +11,13 @@ int main(void)
 	while (digit <= 57)
 	{
 		putchar(digit);
+		if (digit == 57)
+			break;
 		putchar(',');
 		putchar(' ');
 		digit++;
-		if (digit == 9)
-			break;
 	}
-	
+
 
 	putchar('\n');
 	return (0);
