@@ -6,8 +6,7 @@
  */
 int main(void)
 {
-	int x = 0;
-	int y;
+	int x = 0, y;
 
 	while (x <= 99)
 	{
