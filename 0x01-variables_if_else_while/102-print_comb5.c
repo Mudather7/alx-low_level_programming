@@ -13,7 +13,7 @@ int main(void)
 		y = x;
 		while (y <= 99)
 		{
-			if (y != x)
+			if (y > x)
 			{
 				putchar((x / 10) + 48);
 				putchar((x % 10) + 48);
