@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include "main.h"
- /**
- * _isalpha - check if the character is a letter, lowercase or uppercase
+/**
+ *_isalpha - checks for alphabet characters.
  *
- * Return: 1 if c is true, else 0.
+ *@c: the character to be checked.
+ *
+ *Return: 1 or 0.
  */
 
 int _isalpha(int c)
