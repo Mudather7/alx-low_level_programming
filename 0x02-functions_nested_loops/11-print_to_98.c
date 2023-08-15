@@ -3,24 +3,27 @@
 /**
  * print_to_98 - function that prints all natural numbers from n to 98
  *
- * @n: input
+ * @i: input
  *
  * return: 0
  */
-void print_to_98(int n)
+void print_to_98(int i)
 {
-	int count;
 
-	if (n > 98)
+	if (i > 98)
 	{
-		for (count = 0; count > 98; count--)
-			printf("%d, ", count);
+		while (i > 98)
+		{
+			printf("%d, ", i--);
+			printf("%d\n", i);
+		}
 	}
 	else
 	{
-		for (count = 0; count < 98; count++)
-			printf("%d, ", count);
+		while (i < 98)
+		{
+			printf("%d, ", i++);
+			printf("%d\n", i);
+		}
 	}
-	printf("98\n");
 }
-
