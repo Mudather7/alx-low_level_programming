@@ -1,9 +1,12 @@
 #include "main.h"
- /**
- * print_sign - Entry point
+/**
+ *print_sign - Prints the sign of a number.
  *
- * Return: 1 if n is positive, 0 if n is zero, -1 if n is negative
+ *@n: the character to be verified.
+ *
+ *Return: 1 or 0.
  */
+
 int print_sign(int n)
 {
 	if (n > 0)
