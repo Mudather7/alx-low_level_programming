@@ -16,7 +16,7 @@ void times_table(void)
 			{
 				_putchar(prod + '0');
 			}
-			else if (pord < 10 && mult != 0)
+			else if (prod < 10 && mult != 0)
 			{
 				_putchar(',');
 				_putchar(' ');
