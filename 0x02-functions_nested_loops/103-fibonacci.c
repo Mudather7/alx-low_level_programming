@@ -11,6 +11,8 @@ int main(void)
 
 	while (n2)
 	{
+		sum = n1 + n2;
+
 		if (sum > 4000000)
 			break;
 		if ((sum % 2) == 0)
