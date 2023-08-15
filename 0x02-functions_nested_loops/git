@@ -1,0 +1,6 @@
+#!/bin/bash
+echo " write your commit: "
+read smg
+git add .
+git commit -m "$smg"
+git push
