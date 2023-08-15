@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * add -  function that adds two integers and returns the result
+ *add -  function that adds two integers and returns the result
  *
- * &x: first input
+ *@x: first input
  *
- * &y: second input
+ *@y: second input
  *
- * return: sum of x & y
+ *Return: sum of x & y
  */
 int add(int x, int y)
 {
