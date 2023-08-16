@@ -6,35 +6,31 @@
  */
 int main(void)
 {
-	int count, initial;
-	unsigned long n1 = 0, n2 = 1, sum, mx = 100000000, n1o = 0, n2o = 0, sumo = 0;
+	unsigned long i, n = 1, m = 2, mx = 1000000000, n1, n2, m1, m2;
 
-	for (count = 1; count <= 98; count++)
+	printf("%lu", n);
+
+	for (i = 1; i < 91; i++)
 	{
-
-		for (n1o > 0)
-		{
-			printf("%lu", n1o);
-		}
-		initial = numlength(mx) - 1 - numlength(n1);
-
-		while (n1o > 0 && initial > 0)
-		{
-			printf("%d", 0);
-			initial--;
-		}
-		printf("%lu", n1);
-
-		sum = (n1 + n2) % mx;
-		sumo = n1o + n2o + (n1 + n2) / mx;
-		n1o = n2o;
-		n2 = sum;
-		n2o = sumo;
-
-		if (count != 98)
-			printf(", ");
-		else
-			printf("\n");
+		printf(", %lu", m);
+		m += n;
+		n = m - n;
 	}
+
+	n1 = (n / 1);
+	n2 = (n % 1);
+	m1 = (m / 1);
+	m2 = (m % 1);
+
+	for (i = 92; i < 99; i++)
+	{
+		printf(", %lu", m1 + (m2 / 1));
+		printf("%lu", m2 % 1);
+		m1 = m1 + n1;
+		n1 = m1 - n1;
+		m2 = m2 + n2;
+		n2 = m2 - n2;
+	}
+	printf("\n");
 	return (0);
 }
