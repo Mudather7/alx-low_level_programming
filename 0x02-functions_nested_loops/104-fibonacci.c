@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	unsigned long i, n = 1, m = 2, mx = 1000000000, n1, n2, m1, m2;
+	unsigned long i, n = 1, m = 2, l = 1000000000, n1, n2, m1, m2;
 
 	printf("%lu", n);
 
@@ -17,15 +17,15 @@ int main(void)
 		n = m - n;
 	}
 
-	n1 = (n / 1);
-	n2 = (n % 1);
-	m1 = (m / 1);
-	m2 = (m % 1);
+	n1 = (n / l);
+	n2 = (n % l);
+	m1 = (m / l);
+	m2 = (m % l);
 
 	for (i = 92; i < 99; i++)
 	{
-		printf(", %lu", m1 + (m2 / 1));
-		printf("%lu", m2 % 1);
+		printf(", %lu", m1 + (m2 / l));
+		printf("%lu", m2 % l);
 		m1 = m1 + n1;
 		n1 = m1 - n1;
 		m2 = m2 + n2;
