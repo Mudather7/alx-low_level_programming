@@ -18,11 +18,11 @@ void print_number(int n)
 	else
 	{
 		i = n;
+	}
 
 		if (i / 10)
 		{
 			_putchar(i / 10);
 		}
 		_putchar((i % 10) + '0');
-	}
 }
