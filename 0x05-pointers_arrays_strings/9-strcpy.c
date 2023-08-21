@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_strcpy - function that copies the string pointed.
+ * *_strcpy -  function that copies the string pointed.
  *
  * @src: the string.
  *
@@ -10,13 +10,16 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	int i, l;
+	int l;
 
 	for (l = 0; src[l] != '\0'; l++)
-		;
-	for (i = 0; i < l; i++)
-		dest[i] = src[i];
-	dest[i] != '\0';
-
+	{
+		*dest = *src;
+		dest++;
+		src++;
+	}
+	*dest = '\0';
 	return (dest);
 }
+
+
