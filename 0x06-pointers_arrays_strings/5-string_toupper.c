@@ -4,7 +4,7 @@
  *
  * @a: the string.
  *
- * Return: 0.
+ * Return: 0
  */
 char *string_toupper(char *a)
 {
