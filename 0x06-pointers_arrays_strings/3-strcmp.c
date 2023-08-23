@@ -10,14 +10,16 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	int i = 0, j;
+	int i = 0;
+        while (*s1)
+        {
+          if (*s1 != *s2)
+          {
+            i = ((int)*s1 - 48) - ((int)*s2 - 48);
+          }
+          s1++;
+          s2++;
+        }
+        return (i);
 
-	if (s1[i] == s2[i])
-	{
-		i++;
-	}
-
-	j = s1[i] - s2[i];
-
-	return (j);
 }
