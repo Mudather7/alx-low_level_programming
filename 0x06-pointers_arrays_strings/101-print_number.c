@@ -4,7 +4,7 @@
  *
  * @n: an integer.
  *
- * Return: 0
+ * Return: 0.
  */
 void print_number(int n)
 {
@@ -17,6 +17,7 @@ void print_number(int n)
 	{
 		print_number(n / 10);
 	}
+
 	_putchar((n % 10) + '0');
 
 }
