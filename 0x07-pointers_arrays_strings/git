@@ -1,0 +1,5 @@
+echo "write ur comit:"
+read smg
+git add .
+git commit -m "$smg"
+git push
