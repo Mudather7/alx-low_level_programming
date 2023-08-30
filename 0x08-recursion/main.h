@@ -16,5 +16,6 @@ int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 
 int _sqrt_recursion(int n);
+int s(int i, int j);
 
 #endif
