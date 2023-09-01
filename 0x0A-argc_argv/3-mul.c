@@ -6,6 +6,8 @@
  * @argc: count of the argument.
  *
  * @argv: an array of pointer to string.
+ *
+ * Return: 0 or 1
  */
 int main(int argc, char *argv[])
 {
@@ -16,10 +18,10 @@ int main(int argc, char *argv[])
 		mult = atoi(argv[1]) * atoi(argv[2]);
 		printf("%i\n", mult);
 	}
-	else 
+	else
 	{
 		printf("Error\n");
 		return (1);
 	}
 	return (0);
-}	
+}
