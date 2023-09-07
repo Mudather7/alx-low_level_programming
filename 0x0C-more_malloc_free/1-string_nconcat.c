@@ -14,7 +14,7 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int i, j, l1, l2;
+	unsigned int i, j, l1, l2;
 	char *ptr;
 
 	if (s1 == NULL || s2 == NULL)
@@ -33,11 +33,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		ptr[i] = s1[i];
 	}
-	ptr = realloc(ptr, n);
 
-	for (j = 0; s2[j] != '\0'; j++)
+	ptr = realloc(ptr, l1 * n);
+
+	for (j = 0; j < n; j++)
 	{
-		ptr[i] = s2[i];
+		ptr[i] = s2[j];
 		i++;
 	}
 	ptr[i] = '\0';
