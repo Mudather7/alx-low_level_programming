@@ -7,7 +7,7 @@
  *
  * @argv: array of arguments.
  *
- * Retrun: Always 0
+ * Return: Always 0
  */
 int main(int argc, char **argv)
 {
