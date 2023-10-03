@@ -6,14 +6,13 @@
  *
  * @argv: two files.
  *
- * Return: 1 on success, 0 on failure.
+ * Return: integer number.
  */
 int main(int argc, char *argv[]);
 int main(int argc, char *argv[])
 {
-	int f_from, f_to;
-	ssize_t bytes_rd, bytes_wr;
-	char buf[1024];
+	int f_from, f_to, bytes_rd, bytes_wr;
+	char buf[buf_size];
 
 	if (argc != 3)
 	{
@@ -53,5 +52,5 @@ int main(int argc, char *argv[])
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", f_from);
 		exit(100);
 	}
-	return (1);
+	return (0);
 }
