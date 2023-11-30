@@ -1,4 +1,4 @@
-o "write ur commit"
+echo "write ur commit"
 read msg
 git add .
 git commit -m "$msg"
