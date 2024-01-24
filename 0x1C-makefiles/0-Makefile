@@ -1,0 +1,6 @@
+school.o: scholl.c
+	gcc -c school.c
+
+
+school: school.o
+	gcc shool.o -o school
