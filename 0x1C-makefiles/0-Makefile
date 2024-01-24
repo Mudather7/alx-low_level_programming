@@ -1,2 +1,2 @@
 school: school.o main.o
-	gcc shool.o main.o -o school
+	gcc school.o main.o -o school
